@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+kbd {
+    @apply bg-sky-800 px-2 py-1 rounded
+}
+
+ul {
+    @apply ml-4
+}
